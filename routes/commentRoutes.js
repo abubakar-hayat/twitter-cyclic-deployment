@@ -8,6 +8,7 @@ router.use(requireAuth)
 
 router.get('/comments', getComments)
 
+
 router.get('/:id/comments', getCommentsPerTweet)
 
 router.post('/:id/comment', createComment)
